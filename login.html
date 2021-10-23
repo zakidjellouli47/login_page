@@ -1,0 +1,133 @@
+<html>
+<head>
+
+    <title>
+        Login page
+    </title>
+</head>
+
+<body>
+    
+    
+<style>
+
+    body{
+   margin: 0;
+   padding: 0;
+   background-image: url(image.jpg);
+   background-size: cover;
+    
+
+    }
+
+.box{
+width:400px ;
+height: 340px;
+background:mediumturquoise;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+border:solid 2px;
+
+}
+h1{
+margin: 0;
+padding: 20 0 20px;
+font-size: 22px;
+text-align: center;
+
+color :rgb(31, 7, 7);
+}
+.box p{
+padding-left: 26px;
+font-weight: bold;
+color:rgb(31, 7, 7);
+
+}
+
+.box input{
+width: 90%;
+ margin-bottom: 2px;
+ margin-right: 20px;
+}
+
+
+
+.box input[type="text"],input[type="password"]{
+ 
+ margin-left: 20px;
+ background: transparent;
+ outline: none;
+ 
+ color: #020206;
+ height: 30px;
+
+}
+.box input[type="submit"]{
+
+    border: none;
+    outline: none;
+    background:green;
+    height: 33px;
+    color:white;
+    margin-top: 16px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.box input[type="submit"]:hover{
+
+    cursor: pointer;
+     background: mediumturquoise;
+     color:blue;
+}
+.box a {
+ 
+   text-decoration: none;
+  padding-left: 40px;
+ 
+  font-weight: bold;
+color:rgb(31, 7, 7);
+
+}
+.box a:hover{
+
+    color: blue;
+}
+
+
+    
+
+
+
+
+
+</style>
+
+<div class="box">
+    <h1>Login form</h1>
+    <form>
+         <p>username or email address</p>
+        <input type="text" name="username" placeholder="enter your username">
+        <p>password</p>
+        <input type="password" name="password" placeholder="enter your password">
+        <input type="submit" value="Login" >
+        <br>
+
+        <a href="?">did you forget your password??</a> <br>
+ 
+       </form>
+
+</div>
+
+
+    <script>
+
+
+
+    </script>
+
+</body>
+
+</html>
